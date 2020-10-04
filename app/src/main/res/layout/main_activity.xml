@@ -35,7 +35,7 @@
         android:id="@+id/main_sirname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/main_editt2_name"/>
+        android:text="@string/main_editt2_name" />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/editt2"
@@ -81,6 +81,42 @@
             android:layout_height="wrap_content"
             android:text="@string/main_senorita" />
     </RadioGroup>
+    
+    <CheckBox
+        android:id="@+id/polite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/main_politely"/>
+    
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_button"
+        android:layout_gravity="center"
+        />
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="10"
+        android:min="0"/>
+    <TextView
+        android:id="@+id/textBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/main_text_bar"
+    />
+    <TextView
+        android:id="@+id/textgreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:text="@string/main_textgreet"/>
 
 
 </LinearLayout>

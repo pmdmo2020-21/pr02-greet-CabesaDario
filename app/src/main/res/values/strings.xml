@@ -2,11 +2,16 @@
     <string name="app_name">Greet</string>
     <string name="main_swt">Premium</string>
     <string name="main_editt1_name">Name</string>
-    <string name="main_editt2_name">Sirname</string>
+    <string name="main_editt2_name">Surname</string>
     <string name="main_treatment">Treatment</string>
     <string name="main_senor">Mr.</string>
     <string name="main_senora">Mrs.</string>
     <string name="main_senorita">Ms.</string>
     <string name="main_iconPerson">El icono del sexo de la persona</string>
+    <string name="main_politely">Politely</string>
+    <string name="main_button">GREET</string>
+    <string name="main_textgreet">%1$s %2$s %3$s %4$s. %5$s</string>
+    <string name="main_text_bar">%1$d of 10.</string>
+
 
 </resources>
